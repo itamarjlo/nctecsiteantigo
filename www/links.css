@@ -1,0 +1,5 @@
+/* CSS Document */
+           a.novolink:link {text-decoration: none;}
+           a.novolink:visited {text-decoration: underline; color: blue;}
+           a.novolink:hover {text-decoration: underline; color: red; font-size:16;}
+           a.novolink:active {text-decoration: none;}

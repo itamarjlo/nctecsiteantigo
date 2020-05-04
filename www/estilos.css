@@ -1,0 +1,308 @@
+#topo {
+
+	background-image: url(imagens/logo_nctec_superior.jpg);
+
+	background-repeat: no-repeat;
+
+	position: relative;
+
+	width: 800px;
+
+	height: 100px;
+
+	float: left;
+
+
+
+
+
+}
+
+#formularioconsulta {
+
+	position: relative;
+
+	width: 306px;
+
+	top: 68px;
+
+	text-align: center;
+
+	background-color: #eeeeee;
+
+	left: 0px;
+
+	height: 112px;
+
+
+
+
+
+}
+
+#formularioconsultatitulo{
+
+	position: absolute;
+
+	height: 10px;
+
+	width: 304px;
+
+	background-color: #3366FF;
+
+	left: 213px;
+
+	top: 203px;
+
+
+
+
+
+
+
+}
+
+#formconsulta{
+
+	text-align: center;
+
+	position: relative;
+
+	top: 205px;
+
+	left: 209px;
+
+	width: 349px;
+
+	height: 120px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+#tabelaconsultacabeca{
+
+	position: relative;
+
+	width: 799px;
+
+	height: 10px;
+
+	border: thin solid #666666;
+
+	left: 0px;
+
+	top: 0px;
+
+	font-family: Arial;
+
+	font-size: 10pt;
+
+
+
+}
+
+#alterlogin{
+
+	position: relative;
+
+	height: 120px;
+
+	width: 180px;
+
+	left: 0px;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	top: 90px;
+
+	background-color: #CCCCB3;
+
+	font-family: Arial;
+
+	font-size: 9pt;
+
+}
+
+#login{
+
+	position: relative;
+
+	height: 120px;
+
+	width: 150px;
+
+	left: 0px;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	top: 90px;
+
+	background-color: #CCCCB3;
+
+	font-family: Arial;
+
+	font-size: 9pt;
+
+}
+
+#frmalterlogin{
+
+	text-align: left;
+
+	position: absolute;
+
+	width: 180px;
+
+	top: 30px;
+
+	left: 2px;
+
+	height: 70px;
+
+}
+
+#frmlogin{
+
+	text-align: left;
+
+	position: absolute;
+
+	width: 150px;
+
+	top: 30px;
+
+	left: 2px;
+
+	height: 70px;
+
+
+
+
+
+
+
+
+
+}
+
+.pwd {
+
+	text-align: center;
+
+	position: absolute;
+
+	left: 110px;
+
+
+
+
+
+}
+
+#tituloaltersenha{
+
+	position: relative;
+
+	height: 20px;
+
+	width: 180px;
+
+	background-color: #28CAFF;
+
+
+
+}
+
+#titulologin{
+
+	position: relative;
+
+	height: 20px;
+
+	width: 150px;
+
+	background-color: #28CAFF;
+
+
+
+}
+
+
+
+#confirmacaodeenvio{
+
+	font-family: Arial;
+
+	font-size: 14pt;
+
+}
+
+#cabecalho{
+
+	text-align: left;
+
+	position: absolute;
+
+	left: 1px;
+
+	top: 88px;
+
+	width: 459px;
+
+	height: 51px;
+
+	font-family: Arial;
+
+	font-size: 12pt;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+#listadenomes{position: absolute;top: 197px;left: 1px;width: 745px;height: 27px;font-family: Arial;font-size: 8pt;
+}
+
+.inputscinza {
+
+	background-color: #CCCCCC;
+
+	width: 749px;
+
+	height: 15px;
+
+	vertical-align: middle;
+
+	text-align: left;
+
+
+
+}
+
+.tabledados {
+
+	margin: 0px;
+
+	padding: 0px;
+
+}

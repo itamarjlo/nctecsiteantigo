@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Documento sem t&iacute;tulo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="configindex.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="menu.css">
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<script type="text/javascript" src="validar.js"></script>
+<script type="text/javascript" src="menu_corrige.js"></script>
+<script type="text/javascript" src="formatar_mascaras.js"></script>
+<style type="text/css">
+#consultadia{
+	position: relative;
+	height: 120px;
+	width: 300px;
+	left: 0px;
+	text-align: center;
+	vertical-align: middle;
+	top: 150px;
+	background-color: #CCCCB3;
+	font-family: Arial;
+	font-size: 9pt;
+}
+#tituloconsdia{
+	position: relative;
+	height: 20px;
+	width: 300px;
+	background-color: #28CAFF;
+
+}
+#botao{
+	height: 20px;
+	width: 100px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0">
+<div align="center">
+	<div id="fundotopo"></div>
+	<div id="menu"><script type="text/javascript" src="menu.js"></script></div>
+	<div id="corpo">
+			<div id="consultadia">
+				<div id="tituloconsdia">Digite o dia agendado</div>
+					<form enctype="multipart/form-data" method="post" action="listadia.php">
+						<input name="consdia" type="text"  maxlength="10" size="12"onKeyPress="formatadata(this,event)"><br><br>
+						<select name="selcurso" size="1">
+								<option value="nulo">Selecione o curso</option>
+								<option value="Reciclagem Patrimonial">Reciclagem Patrimonial</option>
+								<option value="Ext. Seg. Pessoal Privada">Ext. Seg. Pessoal Privada</option>
+								<option value="Rec. Seg. Pessoal Privada">Rec. Seg. Pessoal Privada</option>
+								<option value="Ext. Transporte de Valores">Ext. Transporte de Valores</option>
+								<option value="Rec. Transporte de Valores">Rec. Seg. Pessoal Privada</option>
+								<option value="Ext. Escolta Armada">Ext. Escolta Armada</option>
+						</select><br><br>
+						<input id="botao" name="botao" type="button" value="Consultar" onClick="form.submit();">		
+					</form>
+				</div>
+	</div>
+
+</div>
+</body>
+</html>

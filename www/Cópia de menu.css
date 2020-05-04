@@ -1,0 +1,204 @@
+/* CSS Document */
+
+ul#primary-nav, ul#primary-nav ul {
+
+	margin: 0;
+
+	padding: 0;
+
+	border-bottom: 1px solid #FFFFFF;
+
+	font-size: 9px;
+
+	float:left;
+
+	background-color: #FFFFFF;
+
+	color: #666666;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+   }
+
+ul#primary-nav li {
+
+   width: 120px; /* Width of Menu Items */
+
+   position: relative;
+
+   list-style: none;
+
+   float:left;
+
+   }
+ul#primary-nav li a {
+
+	display: block;
+
+	text-decoration: none;
+
+	color: #777;
+
+	padding: 3px;
+
+	border-top: 1px solid #FFFFFF;
+
+	border-right: 1px groove #6A6AFF;
+
+	border-bottom: 1px solid #FFFFFF;
+
+	border-left: 1px solid #FFFFFF;
+   }
+
+/* Fix IE. Hide from IE Mac \*/
+
+* html ul#primary-nav li { float: left; height: 1%; }
+
+* html ul#primary-nav li a { height: 1%; }
+
+/* End */
+
+/* Aqui define a posiçao em que aparece o sub-menu, mas o sub-SUB-menu (Services > hosting) precisa aparecer ao lado e nao abaixo \*/
+
+ul#primary-nav ul {     
+
+   position: absolute;
+
+   display: none;
+
+   left: 0;
+
+   top: 22px;
+
+   z-index: 2
+
+   }
+
+/* End \*/
+
+ul#primary-nav li ul li a {
+	padding: 3px 5px;
+	background-color: #FFFFFF;
+	
+
+} /* Sub Menu Styles */
+
+ul#primary-nav li:hover ul ul,
+
+ul#primary-nav li:hover ul ul ul,
+
+ul#primary-nav li.over ul ul,
+
+ul#primary-nav li.over ul ul ul {
+
+	display: none;
+
+	top: 1px;
+
+} /* Hide sub-menus initially */
+
+ul#primary-nav li:hover ul,
+
+ul#primary-nav li li:hover ul,
+
+ul#primary-nav li li li:hover ul,
+
+ul#primary-nav li.over ul,
+
+ul#primary-nav li li.over ul,
+
+ul#primary-nav li li li.over ul {
+
+	display: block;
+
+	z-index: 2;
+
+	position: absolute;
+
+	top: 18px;
+
+
+
+} /* The magic */
+
+
+
+ul#primary-nav li.menuparent {
+
+	z-index: 2;
+
+
+
+}
+
+ul#primary-nav li.menuparent li a {
+
+	border-top: 1px solid #CCCCCC;
+
+	border-right: 1px outset #CCCCCC;
+
+	border-bottom: 1px solid #CCCCCC;
+
+	border-left: 1px outset #CCCCCC;
+
+	width: 250px;
+
+}
+
+ul#primary-nav li.menuparent:hover,
+
+ul#primary-nav li.over {
+
+	background-color: #f9f9f9;
+
+	z-index: 4;
+
+}
+
+
+
+ul#primary-nav li a:hover {
+	color: #000000;
+	background-color: #D5F2FD;
+	font-weight: bold;
+	font-size: 12px;
+
+
+
+} 
+
+
+
+#menu{
+
+	position: relative;
+
+	left: 0px;
+
+	top: 0px;
+
+	width: 749px;
+
+	height: 23px;
+
+	border-top: 3px #CC9933;
+
+	border-right: 1px #CC9933;
+
+	border-bottom: 1px none #CC9933;
+
+	border-left: 1px #CC9933;
+
+	z-index: 3;
+
+	align: center;
+
+	background-color: #FFFFFF;
+
+	text-align: center;
+
+
+
+
+
+}

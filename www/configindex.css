@@ -1,0 +1,748 @@
+/* CSS Document */
+.paragrafo_1 {
+	font-family: Arial;
+	font-size: 8.5pt;
+	left: 27px;
+	text-align: justify;
+	top: 34px;
+	margin: 2px;
+	color: #000000;
+	white-space: normal;
+
+}
+#fundotopo{
+	background-image: url(imagens/logo_nctec_superior_iso.jpg);
+	background-repeat: no-repeat;
+	width: 749px;
+	height: 77px;
+	border: "0";
+	cellspacing: "0";
+	position: relative;
+
+
+
+	}
+
+.tdlargura {
+
+	 width:799px; height:25px
+
+}
+ 
+
+.fundocelula {
+
+	background-image: url(imagens/fundo_logo_menor.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position: center center;
+
+
+
+
+
+}
+
+.fundotopoIndex {
+
+	background-image:  url(imagens/logo_nctec_superior.jpg);
+
+	background-repeat: no-repeat;
+
+	width:799px;
+
+	height:120px;
+
+	border:"0";
+
+	cellspacing:"0";
+
+
+
+}
+
+.TdMenu{
+
+	vertical-align: top;
+
+	height: 10px;
+
+	text-align: center;
+
+
+
+}
+
+.tablelarguraindex {
+
+	width:800px;
+
+	background-image: url(imagens/fundo_logo_medio.jpg);
+
+	background-repeat: no-repeat;
+
+}
+
+.PTitulo1{
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: 800;
+
+	color: #333333;
+
+	margin: 0px;
+
+	text-align: center;
+
+}
+
+#corpo {
+	background-repeat: no-repeat;
+	height: 1332px;
+	width: 784px;
+	border: "0";
+	cellspacing: "0";
+	background-position: center center;
+	position: relative;
+	text-align: left;
+	left: 1;
+	top: 0px;
+
+}
+
+#corpo_reldocumentos {
+
+	background-repeat: no-repeat;
+
+	height: 850px;
+
+	width: 749px;
+
+	border:"0";
+
+	cellspacing:"0";
+
+	background-position: center bottom;
+
+	position: relative;
+}
+
+#Flash {
+
+	position: absolute;
+
+	top: 175px;
+
+	width: 135px;
+
+	height: 140px;
+
+	right: 1px;
+
+	z-index: 1;
+
+	left: 548;
+
+	border: 1px solid #CCCCCC;
+
+
+}
+
+#formlogin{
+	width: 445px;
+	height: 25px;
+	left: 0;
+	top: 2px;
+	border: 1px none #6600FF;
+	position: absolute;
+	text-align: left;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	visibility: visible;
+
+
+
+}
+
+.submit{
+	width: 60px;
+	height: 15px;
+	position: absolute;
+	left: 260px;
+
+
+
+
+
+}
+
+	
+
+p {
+
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+
+
+
+}
+
+#barraauxiliar {
+	height: 32px;
+	top: 102px;
+	left: 0;
+	position: absolute;
+	width: 749px;
+	background-repeat: no-repeat;
+	background-image: url(imagens/degrade_preto.jpg);
+	z-index: 0;
+	float: none;
+
+
+}
+
+#textoexplicativo1{
+
+	height: 39px;
+
+	width: 360px;
+
+	top: 5;
+
+	position: relative;
+
+	margin: 1px auto auto;
+
+	border: none;
+
+	z-index: 1;
+
+	left: 0px;
+
+	float: none;
+
+	text-align: left;
+
+	border: 1px solid #CCCCCC;
+
+
+
+
+
+
+
+}
+
+#TextoExplicativo2 {
+	height: 90px;
+	width: 360px;
+	left: 0;
+	top: 7px;
+	z-index: 1;
+	position: relative;
+	margin: 1px auto auto;
+	text-align: left;
+	float: none;
+	border: 1px solid #CCCCCC;
+
+
+
+}
+
+#TextoExplicativo3 {
+
+	height: 135px;
+
+	width: 247px;
+
+	left: 0px;
+
+	top: 2px;
+
+	z-index: 1;
+
+	position: relative;
+
+	background-color: #F4F4F4;
+
+	margin: 1px auto auto;
+
+	text-align: left;
+
+	float: none;
+
+	border: 1px solid #CCCCCC;
+
+	
+}
+
+#textoexplicativo5 {
+	height: 260px;
+	width: 749px;
+	left: 0px;
+	top: 2px;
+	z-index: 1;
+	position: relative;
+	margin: 1px auto auto;
+	text-align: left;
+	right: 0px;
+	background-color: #999999;
+
+
+}
+
+#endereco{
+
+	position: relative;
+
+	height: 100px;
+
+	width: 247px;
+
+	left: 0px;
+
+	top: 5px;
+
+	background-color: #F4F4F4;
+
+	z-index: 1;
+
+	float: none;
+
+	text-align: left;
+
+	font-family: Arial;
+
+	font-size: 9pt;
+	border: 1px solid #CCCCCC;
+
+}
+
+/*{
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	margin-left: 0px!important;
+
+	/*margin-left: 0px;
+
+	padding: 0;
+
+}*/
+
+#listadedocumentos {
+
+	width: 749px;
+
+	border: 1px solid #999999;
+
+	left: 0px;
+
+	height: auto;
+
+	position: relative;
+
+	top: 27px;
+
+}
+
+
+
+menu {
+
+	left: 20px;
+
+	width: 702px;
+
+	height: 211px;
+
+	text-align: justify;
+
+	top: 5px;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+#textoexplicativo6 {
+
+
+
+	height: 350px;
+
+	width: 749px;
+
+	left: 0px;
+
+	top: 2px;
+
+	z-index: 1;
+
+	position: relative;
+
+	margin: 1px auto auto;
+
+	text-align: left;
+
+}
+
+#textoexplicativo7 {
+	top: 135px;
+	z-index: 1;
+	position: absolute;
+	margin: 1px auto auto;
+	border: 1px solid #CCCCCC;
+	text-align: left;
+	background-color: #EBEBEB;
+	font-family: Arial;
+	font-size: 10pt;
+	right: 1px;
+	left: 250px;
+	width: 200px;
+
+
+
+
+
+
+
+
+
+
+}
+
+.ul_textoexplicativo {
+
+	position: absolute;
+
+	left: 50px;
+
+	width: 350px;
+
+	height: 20px;
+
+	top: 26px;
+
+	z-index: 2;
+
+	list-style-image: url(imagens/miniseta.gif);
+
+	text-align: justify;
+
+}
+
+
+
+input {
+
+	font-family: Arial;
+
+	font-size: 9px;
+
+	height: 15px;
+
+}
+
+#textoexplicativo8 {
+
+
+
+
+
+	height: 36px;
+
+	width: 749px;
+
+	left: 1px;
+
+	top: 5px;
+
+	z-index: 1;
+
+	position: relative;
+
+	margin: 1px auto auto;
+
+	border: 1px solid #CCCCCC;
+
+	text-align: center;
+
+	background-color: #EBEBEB;
+
+}
+
+#textoexplicativo9 {
+
+	height: 218px;
+
+	width: 360px;
+
+	left: 0;
+
+	top: 10px;
+
+	z-index: 1;
+
+	position: relative;
+
+	margin: 1px auto auto;
+
+	border: 1px solid #CCCCCC;
+
+	text-align: left;
+
+	float: left;
+
+
+
+}
+
+.PTitulo2 {
+
+
+
+	font-family: Arial;
+
+	font-size: 10pt;
+
+	font-style: normal;
+
+	font-weight: 500;
+
+	color: #0000FF;
+
+	margin: 0px;
+
+	text-align: center;
+
+}
+
+#textoexplicativo10 {
+
+	height: 12px;
+
+	width: 749px;
+
+	left: 1px;
+
+	top: 431px;
+
+	z-index: 1;
+
+	position: absolute;
+
+	margin: 1px auto auto;
+
+	text-align: left;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 6pt;
+
+	letter-spacing: 2px;
+
+
+
+
+
+}
+
+#textoexplicativo11 {
+
+	height: 20px;
+
+	width: 749px;
+
+	left: 1px;
+
+	top: 2px;
+
+	z-index: 1;
+
+	position: relative;
+
+	margin: 1px auto auto;
+
+	text-align: center;
+
+	background-color: #E6E6E6;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12pt;
+
+	letter-spacing: 2px;
+
+	color: #003333;
+
+	font-weight: bold;
+
+	background-image: url(imagens/fundo_azul_claro.jpg);
+
+
+
+
+
+
+
+
+
+}
+
+#Textoexplicativo12 {
+	height: 34px;
+	width: 450px;
+	left: 0px;
+	top: 15px;
+	z-index: 1;
+	position: relative;
+	margin: 1px auto auto;
+	text-align: center;
+	background-color: #E6E6E6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 1px;
+	color: #333333;
+	font-weight: normal;
+	border: 1px solid #666666;
+
+
+}
+
+#Textoexplicativo13 {
+	height: 275px;
+	width: 450px;
+	left: 0px;
+	top: 20px;
+	z-index: 1;
+	position: relative;
+	margin: 1px auto auto;
+	text-align: center;
+	background-color: #E6E6E6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 2px;
+	color: #333333;
+	font-weight: normal;
+	border: 1px solid #666666;
+
+
+}
+
+#fundotopo_simples{
+
+	background-repeat: no-repeat;
+
+	width:749px;
+
+	height:82px;
+
+	border:"0";
+
+	cellspacing:"0";
+
+	position: relative;
+
+
+
+	}
+body {
+	background-image: url(fundo_cruzado.gif);
+}
+#TextoExplicativo15{
+
+	height: 135px;
+
+	width: 210px;
+
+	left: 0;
+
+	top: 0;
+
+	z-index: 2;
+
+	position: relative;
+
+	background-color: #F4F4F4;
+
+
+
+	text-align: left;
+
+	float: none;
+	
+	margin: 1px auto auto;	
+
+	border: 1px solid #CCCCCC;
+
+	
+}
+.titulopagina{
+	position: absolute;
+	width: 749px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 3pt;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #0099CC;
+	border-right-color: #0099CC;
+	border-bottom-color: #0099CC;
+	border-left-color: #0099CC;
+	left: 0px;
+	top: 107px;
+	height: 22px;
+
+
+
+
+}
+.tituloquadros {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	background-color: #FFFF8C;
+	position: absolute;
+}
+.formconsulta {
+	background-color: #FFFFFF;
+	padding: 1px;
+	position: absolute;
+	height: 57px;
+	width: 269px;
+	left: 3px;
+	top: 43px;
+	text-align: center;
+	vertical-align: middle;
+	clip:  rect(0px auto auto auto);
+    margin:1;
+
+
+
+}
+#corpo div .PTitulo1 font {
+	color: #FF0000;
+}
+#corpo div div div strong font {
+	color: #F00;
+}
